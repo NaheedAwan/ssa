@@ -38,7 +38,6 @@ document.getElementById('add-gb').addEventListener('click', function() {
     gb=gb+1
     btnTotal = document.querySelector("#qty-total")
     btnTotal.textContent = gb + 1
-    btnTotal = btnTotal + btnTotal1 +btnTotal2
     })
 
 document.getElementById('minus-gb').addEventListener('click', function() {
@@ -47,58 +46,40 @@ document.getElementById('minus-gb').addEventListener('click', function() {
     gb=gb-1
     btnTotal = document.querySelector("#qty-total")
     btnTotal.textContent =  gb - 1
-    btnTotal = btnTotal + btnTotal1 +btnTotal2
     })
 document.getElementById('add-cc').addEventListener('click', function() {
     btnQtn=document.querySelector("#qty-cc")
     btnQtn.textContent = cc + 1
     btnQtn.value = parseInt(btnQtn.value) + 1
     cc = cc + 1
-    btnTotal1 = document.querySelector("#qty-total")
-    btnTotal1.textContent =  cc +1
-    btnTotal = btnTotal + btnTotal1 +btnTotal2
-    
-
-   
+    btnTotal = document.querySelector("#qty-total")
+    btnTotal.textContent =  cc +1
 })
 document.getElementById('minus-cc').addEventListener('click', function() {
     btnQtn=document.querySelector("#qty-cc")
     btnQtn.textContent = cc - 1
     btnQtn.value = parseInt(btnQtn.value) - 1
     cc = cc - 1
-    btnTotal1 = document.querySelector("#qty-total")
-    btnTotal1.textContent = cc - 1
-    btnTotal= btnTotal + btnTotal1 +btnTotal2
-    
-
-   
+    btnTotal = document.querySelector("#qty-total")
+    btnTotal.textContent = cc - 1
 })
 document.getElementById('add-sugar').addEventListener('click', function() {
     btnQtn=document.querySelector("#qty-sugar")
     btnQtn.textContent = sugar + 1
     btnQtn.value = parseInt(btnQtn.value) + 1
     sugar = sugar + 1
-    btnTotal2 = document.querySelector("#qty-total")
-    btnTotal2.textContent = sugar + 1
-    btnTotal = btnTotal + btnTotal1 +btnTotal2
-    
-   
-    
+    btnTotal= document.querySelector("#qty-total")
+    btnTotal.textContent = sugar + 1
 
-   
 })
 document.getElementById('minus-sugar').addEventListener('click', function() {
     btnQtn=document.querySelector("#qty-sugar")
     btnQtn.textContent = sugar - 1
     btnQtn.value = parseInt(btnQtn.value) - 1
     sugar = sugar - 1
-    btnTotal2 = document.querySelector("#qty-total")
-    btnTotal2.textContent = sugar - 1
-    btnTotal = btnTotal + btnTotal1 +btnTotal2
+    btnTotal = document.querySelector("#qty-total")
+    btnTotal.textContent = sugar - 1
     
-    
-
-   
 })
    
     btnTotal = document.querySelector("#qty-total")
