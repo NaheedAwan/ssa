@@ -61,7 +61,7 @@ document.getElementById('minus-cc').addEventListener('click', function() {
     btnQtn.value = parseInt(btnQtn.value) - 1
     cc = cc - 1
     btnTotal = document.querySelector("#qty-total")
-    btnTotal.textContent = cc - 1
+     btnTotal.textContent = cc - 1
 })
 document.getElementById('add-sugar').addEventListener('click', function() {
     btnQtn=document.querySelector("#qty-sugar")
@@ -69,7 +69,7 @@ document.getElementById('add-sugar').addEventListener('click', function() {
     btnQtn.value = parseInt(btnQtn.value) + 1
     sugar = sugar + 1
     btnTotal= document.querySelector("#qty-total")
-    btnTotal.textContent = sugar + 1
+     btnTotal.textContent = sugar + 1
 
 })
 document.getElementById('minus-sugar').addEventListener('click', function() {
@@ -81,10 +81,10 @@ document.getElementById('minus-sugar').addEventListener('click', function() {
     btnTotal.textContent = sugar - 1
     
 })
-   
-    btnTotal = document.querySelector("#qty-total")
  
-    total = gb + cc + sugar
+    // btnTotal = document.querySelector("#qty-total")
+ 
+    // total = gb + cc + sugar
    
 
 
